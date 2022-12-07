@@ -1,24 +1,29 @@
-<h1 align="left"><img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="30px"> "Olá, Mundo!" 🌎</h1>
-
-- 🤓 Hi, I’m @cardozov (Vinícius Cardozo), feel free to reach out to me about tech stuff and otherelse you want
-- 💼 I'm currently working as:
-  - Staff Engineer at Clevertech
-  - Instructor at Alura
-  - Creator at Rocketseat
-  - Mentor at Awari
-  - Creator at MundoDev
-- 📫 How to reach me:
-<p align="left" style="background:yellow">
-<a href="https://linkedin.com/in/vcardozo" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/-vcardozo-05122A?style=flat&logo=linkedin" alt="linkedin"/>
-</a>
-<a href="https://instagram.com/_vcardozo" target="_blank">
- <img align="center" src="https://img.shields.io/badge/-_vcardozo-05122A?style=flat&logo=instagram" alt="instagram"/>
-</a>
-<a href="https://youtube.com/@_mundodev" target="_blank">
- <img align="center" src="https://img.shields.io/badge/-MundoDev-05122A?style=flat&logo=youtube" alt="youtube"/>
-</a>
+<h1 align="center"><img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="30px"> "Olá, Mundo!" 🌎</h1>
+<p align="center">
+    <a href="https://instagram.com/_vcardozo">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+    </a>
+    <a href="https://www.linkedin.com/in/vcardozo/">
+    <img src="https://img.shields.io/badge/LinkedIn-307cc5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    </a>
+    <a href="https://youtube.com/@_mundodev">
+    <img src="https://img.shields.io/youtube/channel/subscribers/UCGXUkH2w-H42TQQ4xzcmQDQ?label=Mundo%20Dev&style=for-the-badge" alt="youtube"/>
+    </a>
+    <img src="https://komarev.com/ghpvc/?username=vcardozo&style=for-the-badge"/>
 </p>
+
+## 🤓 About myself:
+#### Hi, I'm @cardozov (Vinícius Cardozo). I do like to work with technical stuff to solve real-life problems.
+I'm passionate about technology (software development, in particular); however, feel free to reach out to me about other subjects as well.
+
+## 💼 About my current roles:
+#### I have multiple positions in fantastic companies. I'm genuinely excited about the challenges I'm facing and the things I'm working with.
+Here are the positions you can find me working on:
+- Staff Engineer at Clevertech
+- Instructor at Alura
+- Creator at Rocketseat
+- Mentor at Awari
+- Content Creator at MundoDev (my personal Youtube channel)
 
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=cardozov&hide=contribs,prs&show_icons=true&theme=dracula)
