@@ -19,10 +19,9 @@ I'm passionate about technology (software development, in particular); however, 
 ## 💼 About my current roles:
 #### I have multiple positions in fantastic companies. I'm genuinely excited about the challenges I'm facing and the things I'm working with.
 Here are the positions you can find me working on:
-- Staff Engineer at Clevertech
+- SWE Engineer at Deel
 - Instructor at Alura
 - Creator at Rocketseat
-- Mentor at Awari
 - Content Creator at MundoDev (my personal Youtube channel)
 
 
