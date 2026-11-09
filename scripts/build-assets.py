@@ -46,12 +46,12 @@ THEMES = {
     "dark": {
         "card": "#0d1117", "card2": "#111823", "border": "#262f3b", "text": "#e6edf3",
         "muted": "#8b949e", "dim": "#4b5563", "a1": "#3ddc97", "a2": "#8b7bff",
-        "a3": "#ff7a59", "blue": "#4cb8ff", "grid": "#1b2430", "comment": "// dark mode. naturally.",
+        "a3": "#ff7a59", "blue": "#3a9df0", "grid": "#1b2430", "comment": "// dark mode. naturally.",
     },
     "light": {
         "card": "#ffffff", "card2": "#f6f8fa", "border": "#d0d7de", "text": "#1f2328",
         "muted": "#59636e", "dim": "#9aa4af", "a1": "#12925e", "a2": "#5b4be0",
-        "a3": "#d4502c", "blue": "#1f78c1", "grid": "#eef1f4", "comment": "// light mode? bold move.",
+        "a3": "#d4502c", "blue": "#1a65a8", "grid": "#eef1f4", "comment": "// light mode? bold move.",
     },
 }
 
