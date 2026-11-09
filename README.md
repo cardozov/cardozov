@@ -1,30 +1,41 @@
-<h1 align="center"><img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" height="30px"> "Olá, Mundo!" 🌎</h1>
+<a href="https://vinicius.cardozo.io">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+    <img width="100%" src="assets/hero-dark.svg" alt="Terminal window running node hello.js and printing “Olá, Mundo!”. Vinícius Cardozo: I work with technical stuff to solve real-life problems. Online, Senior+ IC at Deel, shipping since 2013.">
+  </picture>
+</a>
+
 <p align="center">
-    <a href="https://instagram.com/_vcardozo">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-    </a>
-    <a href="https://www.linkedin.com/in/vcardozo/">
-    <img src="https://img.shields.io/badge/LinkedIn-307cc5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-    </a>
-    <!-- <a href="https://youtube.com/@_mundodev">
-    <img src="https://img.shields.io/youtube/channel/subscribers/UCGXUkH2w-H42TQQ4xzcmQDQ?label=Mundo%20Dev&style=for-the-badge" alt="youtube"/>
-    </a> -->
-    <img src="https://komarev.com/ghpvc/?username=vcardozo&style=for-the-badge"/>
+  <a href="https://instagram.com/_vcardozo"><img height="48" src="assets/btn-instagram.svg" alt="Instagram: @_vcardozo"></a>
+  <a href="https://www.linkedin.com/in/vcardozo/"><img height="48" src="assets/btn-linkedin.svg" alt="LinkedIn: in/vcardozo"></a>
+  <a href="https://vinicius.cardozo.io"><img height="48" src="assets/btn-site.svg" alt="Website: vinicius.cardozo.io"></a>
 </p>
 
-## 🤓 About myself:
-#### Hi, I'm @cardozov (Vinícius Cardozo). I do like to work with technical stuff to solve real-life problems.
-I'm passionate about technology (software development, in particular); however, feel free to reach out to me about other subjects as well.
+<p align="center">
+  I'm <b>@cardozov</b>, passionate about software development as a way to solve real-life problems.
+  <br>
+  <b>Feel free to reach out to me about other subjects as well.</b>
+</p>
 
-## 💼 About my current roles:
-#### I have multiple positions in fantastic companies. I'm genuinely excited about the challenges I'm facing and the things I'm working with.
-Here are the positions you can find me working on:
-- SWE Engineer at Deel
-- Instructor at Alura
-- Creator at Rocketseat
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/roles-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/roles-light.svg">
+  <img width="100%" src="assets/roles-dark.svg" alt="Current roles: Software Engineer at Deel, building product; Instructor at Alura, teaching devs; Creator at Rocketseat, creating content.">
+</picture>
 
-  
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/langs-light.svg">
+  <img width="100%" src="assets/langs-dark.svg" alt="Most used programming languages across my public repositories, updated weekly.">
+</picture>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats&theme=dracula)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg">
+  <img width="100%" src="assets/footer-dark.svg" alt="Terminal output: thanks for stopping by. Process exited with code 0, see you around.">
+</picture>
 
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=vcardozo&label=visitors&color=3ddc97&style=flat-square" alt="Profile visitor count">
+</p>
