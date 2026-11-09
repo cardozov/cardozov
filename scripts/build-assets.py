@@ -281,9 +281,9 @@ def hero(builder, theme_name, t):
 
 
 ROLES = [
-    ("Deel", "Software Engineer", "building product", "a1"),
-    ("Alura", "Instructor", "teaching devs", "a2"),
-    ("Rocketseat", "Creator", "creating content", "a3"),
+    ("Deel", "Software Engineer", "building product", "a1", "running"),
+    ("Alura", "Instructor", "teaching devs", "a2", "paused"),
+    ("Rocketseat", "Creator", "creating content", "a3", "paused"),
 ]
 
 
@@ -303,10 +303,15 @@ def roles(builder, theme_name, t):
         f'<clipPath id="c"><rect width="{fmt(card_w)}" height="{card_h}" rx="12"/></clipPath>'
     )
     cards = []
-    for index, (company, role, verb, accent_key) in enumerate(ROLES):
+    for index, (company, role, verb, accent_key, status) in enumerate(ROLES):
         accent = t[accent_key]
         x = 1 + index * (card_w + gap)
-        dot_x = card_w - 20 - mono_width(7, 12) - 11
+        dot_x = card_w - 20 - mono_width(len(status), 12) - 11
+        ring = (
+            f'<circle class="ring" cx="{fmt(dot_x)}" cy="30" r="3.5" fill="{accent}"/>'
+            if status == "running"
+            else ""
+        )
         bars_left, bars_right, bar_w, bar_h, bar_y = 20, card_w - 20, 9, 36, 156
         pitch = (bars_right - bars_left - bar_w) / 17
         bars = "".join(
@@ -322,9 +327,9 @@ def roles(builder, theme_name, t):
             f'<rect width="{fmt(card_w)}" height="{card_h}" rx="12" fill="{t["card"]}" stroke="{t["border"]}"/>'
             f'<rect width="{fmt(card_w)}" height="4" fill="{accent}" clip-path="url(#c)"/>'
             f'<text class="m" x="20" y="34" font-size="12" fill="{t["muted"]}">pid 0{index + 1}</text>'
-            f'<circle class="ring" cx="{fmt(dot_x)}" cy="30" r="3.5" fill="{accent}"/>'
+            f"{ring}"
             f'<circle cx="{fmt(dot_x)}" cy="30" r="3.5" fill="{accent}"/>'
-            f'<text class="m" x="{fmt(card_w - 20)}" y="34" font-size="12" text-anchor="end" fill="{t["muted"]}">running</text>'
+            f'<text class="m" x="{fmt(card_w - 20)}" y="34" font-size="12" text-anchor="end" fill="{t["muted"]}">{status}</text>'
             f'<text class="s" x="20" y="84" font-size="36" font-weight="700" fill="{t["text"]}">{company}</text>'
             f'<text class="s" x="20" y="110" font-size="16" font-weight="500" fill="{t["muted"]}">{role}</text>'
             f'<path d="M20 134H31M26.5 129.5L31 134L26.5 138.5" fill="none" stroke="{accent}" '
